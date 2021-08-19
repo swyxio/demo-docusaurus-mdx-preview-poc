@@ -7,7 +7,7 @@ sidebar_position: 1
 
 import * as WhatIsWorker from './what-is-worker.mdx'
 
-Here is some mumbo jumbo. If you ever wondered about <preview page={WhatIsWorker}>what is a worker?</preview> then you have come to the right place.
+Here is some mumbo jumbo. If you ever wondered about <preview page={WhatIsWorker}>workers</preview> then you have come to the right place.
 
 ## Getting Started
 
