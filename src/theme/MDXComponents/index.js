@@ -76,17 +76,17 @@ function Preview({ page: {
         position: 'absolute',
         zIndex: 1,
         width: 200,
-        borderRadius: 6,
+        borderRadius: '10px',
       }}>
-      <div style={{ padding: 2, fontSize: '1.5rem', fontStyle: 'bold', backgroundColor: 'black', color: '#f2f2f2' }}>{frontMatter.title}</div>
+      <div style={{ padding: 2, fontSize: '1rem', fontStyle: 'bold', textAlign: 'center', backgroundColor: 'black', color: '#f2f2f2' }}>{frontMatter.title}</div>
       <div
         style={{
           backgroundColor: '#f2f2f2',
           padding: 10,
         }}
       >
-        <span>{metadata.description}</span>
-        <span style={{ marginTop: '1rem', display: 'block' }}> <a href={metadata.permalink}>see full article >></a> </span>
+        <span style={{fontSize: '0.8rem', lineHeight: 0.5}}>{metadata.description}</span>
+        <span style={{ marginTop: '1rem', display: 'block', fontSize: '0.75rem'}}> <a href={metadata.permalink}>see full article >></a> </span>
       </div></div>}
   </span>
 }
