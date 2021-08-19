@@ -70,7 +70,7 @@ function Preview({ page: {
     onMouseEnter={() => setShow(true)}
     onMouseLeave={() => setShow(false)}
     style={{ position: 'relative', display: 'inline-block' }}
-  ><a href={metadata.permalink}>{children} <InfoIcon /></a>
+  ><a href={metadata.permalink}>{children}<InfoIcon /></a>
     {show && <div
       style={{
         position: 'absolute',
