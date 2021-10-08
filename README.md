@@ -6,3 +6,5 @@ Solution: write a preview component and make it easily injectable into MDX!
 
 
 See video explanation https://youtu.be/LbC4WZoyinI
+
+implemented in https://github.com/temporalio/documentation/pull/673
